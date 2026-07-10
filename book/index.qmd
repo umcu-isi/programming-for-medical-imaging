@@ -1,7 +1,13 @@
 # Welcome! {.unnumbered}
 
-Welcome to the course book of the one-day introduction to Python course that is developed by [Research Data Management support at Utrecht University](https://www.uu.nl/en/research/research-data-management). This course is taught every 2 months ([agenda](https://www.uu.nl/en/research/research-data-management/workshops/introduction-to-python)) and aims to introduce researchers into programming and data analysis with Python. 
+Welcome to the course book for the course *[Programming for Medical Imaging](https://mix.isi.uu.nl/courses/programming/)*. 
 
-In this workshop, we will utilize the Jupyter Notebook interface and take you from the basics of Python syntax to using the `pandas` package to work with data frames. In doing so, we aim to give you the tools and confidence to start exploring Python and all it has to offer. After the course, you will be able to start using Python in your own project, this will be hard in the beginning (a one day course is unfortunately not enough to become a skilled programmer) but we are available during our weekly [walk in hours](https://www.uu.nl/en/research/research-data-management/workshops/walk-in-hours-research-data-and-software) to get you on track!
+In the area of medical imaging, it is necessary to create computer programs to process and analyse image data. This course deals with both the theoretical knowledge and practical skills of working with (large) image datasets.
 
-Our workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/umcu-isi/programming-for-medical-imaging).
+You will learn the basics of the file structures to store medical image data, and how to write source code and create a computer program to process medical images efficiently. This includes debugging, problem solving and maintenance of software.
+ 
+The course includes algorithms and data structures used in medical image analysis. Modern programming languages are used, such as Python and C++, while paying attention to efficient computer instructions and memory usage.
+
+This course follows the *flipped classroom* principle: courses are a combination of online material and exercises, with practical sessions under supervision at the UMC Utrecht.
+
+The course material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/umcu-isi/programming-for-medical-imaging).
