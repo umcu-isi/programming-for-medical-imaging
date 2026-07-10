@@ -25,8 +25,8 @@ jobs:
         path: course_materials.zip
     - name: Commit files
       run: |
-        git config --local user.email "github@uu.nl"
-        git config --local user.name "GitHub Utrecht University"
+        git config --local user.email "H.E.Bennink@umcutrecht.nl"
+        git config --local user.name "Edwin Bennink"
         git add .
         git commit -a -m "Update course materials"
       continue-on-error: true
