@@ -1709,7 +1709,7 @@ wheels = [
 ]
 
 [[package]]
-name = "workshop-introduction-to-python"
+name = "programming-for-medical-imaging"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

@@ -1,7 +1,7 @@
 [project]
-name = "workshop-introduction-to-python"
+name = "programming-for-medical-imaging"
 version = "0.1.0"
-description = "Add your description here"
+description = "Course material for the course Programming for Medical Imaging"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

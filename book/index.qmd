@@ -4,4 +4,4 @@ Welcome to the course book of the one-day introduction to Python course that is 
 
 In this workshop, we will utilize the Jupyter Notebook interface and take you from the basics of Python syntax to using the `pandas` package to work with data frames. In doing so, we aim to give you the tools and confidence to start exploring Python and all it has to offer. After the course, you will be able to start using Python in your own project, this will be hard in the beginning (a one day course is unfortunately not enough to become a skilled programmer) but we are available during our weekly [walk in hours](https://www.uu.nl/en/research/research-data-management/workshops/walk-in-hours-research-data-and-software) to get you on track!
 
-Our workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/UtrechtUniversity/workshop-introduction-to-python).
+Our workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/umcu-isi/programming-for-medical-imaging).

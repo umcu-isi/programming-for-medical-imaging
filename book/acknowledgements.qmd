@@ -1,17 +1,21 @@
 # Acknowledgements {.unnumbered}
 
-Our workshop materials are an adaptation of the following sources: 
+These course materials are derived from work that is Copyright © Utrecht University, and an adaptation of the following sources:
+
+- [Workshop: Introduction to Python](https://github.com/UtrechtUniversity/workshop-introduction-to-python)
 
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/index.html) developed by [The Carpentries](https://carpentries.org/)  
-    
+
 - [Introduction to R & Data](https://utrechtuniversity.github.io/workshop-introduction-to-R-and-data/) developed by [Research Data Management Support](https://www.uu.nl/en/research/research-data-management) at Utrecht University. 
     
 The aforementioned source materials are reused under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Contributors
 
-The following indivduals have contributed to the development of this workshop:
+The following individuals have contributed to the development of these course materials:
 
+- [Edwin Bennink](https://orcid.org/0000-0002-3689-8532)
+- [Koen Vincken](https://orcid.org/0000-0002-4480-7565)
 - [Jelle Treep](https://orcid.org/0000-0003-3196-7954)
 - Christine Staiger
 - [Roel Brouwer](https://orcid.org/0000-0001-8300-4290)

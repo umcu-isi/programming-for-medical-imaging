@@ -5,7 +5,7 @@ We are very happy with any suggestions or contributions to improve the contents.
 ## How to contribute
 
 ### Issues
-The easiest way to contribute is to submit an [issue](https://github.com/UtrechtUniversity/workshop-introduction-to-python/issues), and make your comments about contents, typos or any other suggestions.
+The easiest way to contribute is to submit an [issue](https://github.com/umcu-isi/programming-for-medical-imaging/issues), and make your comments about contents, typos or any other suggestions.
 
 ### Pull requests
 If you are comfortable with git and pull requests, you can also submit a pull request where you directly suggest changes to the content. Read more about how pull requests work [here](https://app.egghead.io/playlists/how-to-contribute-to-an-open-source-project-on-github).
