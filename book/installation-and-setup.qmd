@@ -6,69 +6,55 @@ The course materials are designed to be run on a personal computer.
 All of the software and data used are freely available online,
 and instructions on how to obtain them are provided below.
 
-If you have any questions, or are not comfortable with doing the installation yourself
-join the [RDM walk-in hours][walk-in-hours] to ask for help.
-
 ## Step 1: Install Python
 
 In this course, we will be using Python 3 with some of its most popular scientific libraries.
-Although one can install a plain-vanilla Python and all required libraries by hand,
-we recommend installing [Anaconda][anaconda-website],
-a Python distribution that comes with everything we need for the lesson. 
-Detailed installation instructions can be found in the [Anaconda documentation][anaconda-install], or by following the instructions below.
 
-Regardless of how you choose to install it, **please make sure you install Python version 3.x**
-(e.g., 3.9 is fine).
+Python 3 itself can be downloaded and installed from https://www.python.org/downloads/.
+Follow the steps on this website to download and install Python 3.14.x for Windows/MacOS/Linux. Just ask for help during the practical sessions or on Teams when something isn't clear. 
 
-We will teach Python using the [Jupyter Notebook][jupyter], a programming environment that runs 
-in a web browser (Jupyter Notebook will be installed by Anaconda). For this to work you will need
-a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers
-are all [supported][jupyter-compatibility] (some older browsers, including Internet Explorer
-version 9 and below, are not).
+We will teach the basics of Python programming using the [Jupyter Lab][jupyter], a scripting environment that runs 
+in a web browser.
 
-To download the software from the webpage please click on "skip Registration" and then choose one of the Distribution installers.
+
+
+ Easiest way of installing and and running jupyterlab?
+Through pip, uv, or PyCharm?
+
+
+
+
+Follow these steps to install Jupyter Lab:
 
 ::: {.panel-tabset}
 ## Windows
-1. Download the Anaconda distribution from [the Anaconda website](https://www.anaconda.com/download). The website should automatically determine which installation is most suitable for your machine. Save the `.exe` file in a location that you can access.
-2. Double click the Anaconda `.exe`cutable file to start the installation set-up.
-3. Follow the steps in the set-up:
-    a. Welcome to Anaconda: click next ![](images/anaconda-setup-1.PNG)
-    b. Accept the License Agreement: ![](images/anaconda-setup-2.PNG)
-    c. Select the installation type: `Just Me` or `All Users`. The `All Users` option requires Admin access to your computer. If you do not have such rights, choose `Just Me`. Otherwise, we recommend choosing `All Users`. If you install Anaconda for all users, click Yes to the question "Do you want to allow this app to make changes to your device?" ![](images/anaconda-setup-3.PNG)
-    d. Choose the installation location: the proposed location differs depending on your choice in the previous step. Usually the default proposed location is fine. Click Next. ![](images/anaconda-setup-4.PNG)
-    e. Advanced Installation Options: choose which advanced options you want. We recommend to at least check the "Register Anaconda as the system Python" option, because that allows other programs to detect the Python installation on your machine. ![](images/anaconda-setup-5.PNG)
-    f. Wait for installation. This can take up a couple of minutes, depending on whether you are installing just for you or for all users. Click Next once the installation has finished ![](images/anaconda-setup-6.PNG)
-    g. Click Next in the following screen that promotes Anaconda cloud notebooks. ![](images/anaconda-setup-7.PNG)
-    h. Finally, indicate whether you want Anaconda to launch and whether you want to see the Getting Started with Anaconda Distribution, and click Finish. ![](images/anaconda-setup-8.PNG)
+1. Open a Windows PowerShell
+2. Create a directory for the course, for example `pmi`, and enter it:
+```powershell
+cd ~
+mkdir pmi
+cd pmi
+```
+3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
+```powershell
+py -V:3.14 -m venv .venv
+```
 
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+```powerhell
+pip install jupyterlab
+```
+
+
+```powershell
+cd ~\pmi
+.\.venv\Scripts\Activate.ps1
+jupyter-lab
+```
 ## MacOS 
-1. Open [https://www.anaconda.com/products/individual#download-section](https://www.anaconda.com/products/individual#download-section) with your web browser.
-2. Download the Anaconda Installer with Python 3 for macOS (you can either use the Graphical or the Command Line Installer).
-3. Install Python 3 by running the Anaconda Installer using all of the defaults for installation.
-
-## Linux
-1. Open [https://www.anaconda.com/products/individual#download-section](https://www.anaconda.com/products/individual#download-section) with your web browser.
-2. Download the Anaconda Installer with Python 3 for Linux. <br>
-   (The installation requires using the shell. If you aren't
-   comfortable doing the installation yourself
-   stop here and come to the [walk-in hours][walk-in-hours] to ask for help.)
-3. Open a terminal window and navigate to the directory where the executable is downloaded (e.g., `cd ~/Downloads`).
-4. Type 
-   ```{sh}
-   bash Anaconda3-
-   ```
-   and then press <kbd>Tab</kbd> to autocomplete the full file name. The name of file you just downloaded should appear.
-5. Press <kbd>Enter</kbd> (or <kbd>Return</kbd> depending on your keyboard).
-   You will follow the text-only prompts.
-   To move through the text, press <kbd>Spacebar</kbd>.
-   Type `yes` and press enter to approve the license.
-   Press <kbd>Enter</kbd> (or <kbd>Return</kbd>)
-   to approve the default location for the files.
-   Type `yes` and press <kbd>Enter</kbd> (or <kbd>Return</kbd>)
-   to prepend Anaconda to your `PATH`
-  (this makes the Anaconda distribution the default Python).
-6. Close the terminal window.
+1.
 :::
 
 ## Step 2: Obtain lesson materials

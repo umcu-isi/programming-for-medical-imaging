@@ -1,6 +1,6 @@
-# Workshop Materials {.unnumbered}
+# Course Materials {.unnumbered}
 
-You can download the workshop materials collectively in a zipped file or separately using the links further below. Please make sure that all workshop-related files are contained within a single folder and placed in a location accessible to your system.
+You can download the course materials collectively in a zipped file or separately using the links further below. Please make sure that all workshop-related files are contained within a single folder and placed in a location accessible to your system.
 
 ## Zipped File
 
@@ -9,28 +9,3 @@ The following zipped file contains the notebooks and data required for the works
 - [course_materials.zip](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
 
 Don't forget to extract the contents of the zipped file after downloading!
-
-```
-introduction-python
-├── data
-│   ├── species.csv
-│   ├── surveys.csv
-│   └── plots.csv
-├── morning_exercises.ipynb 
-└── afternoon_exercises.ipynb            
-```
-
-## Notebooks
-
-We will be using the following Jupyter Notebooks to work on the exercises:
-
-- morning_exercises.ipynb
-- afternoon_exercises.ipynb
-
-## Data
-
-The data for this workshop is from the [Portal Teaching Database](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459). We will be using the following datasets:
-
-- surveys.csv
-- species.csv
-- plots.csv

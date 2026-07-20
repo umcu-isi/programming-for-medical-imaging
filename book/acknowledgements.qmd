@@ -2,7 +2,7 @@
 
 These course materials are derived from work that is Copyright © Utrecht University, and an adaptation of the following sources:
 
-- [Workshop: Introduction to Python](https://github.com/UtrechtUniversity/workshop-introduction-to-python)
+- [Workshop: Introduction to Python](https://github.com/UtrechtUniversity/workshop-introduction-to-python) developed by [Research Data Management Support](https://www.uu.nl/en/research/research-data-management) at Utrecht University.
 
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/index.html) developed by [The Carpentries](https://carpentries.org/)  
 

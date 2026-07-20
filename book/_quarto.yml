@@ -11,36 +11,42 @@ book:
   chapters:
     - index.qmd
     - acknowledgements.qmd
-    - schedule.qmd
     - part: "Preparation"
       chapters: 
         - installation-and-setup.qmd
         - course-materials.qmd
-    - part: "Python Fundamentals"
+    - part: "Week 1: Medical Images"
       chapters: 
         - introduction.qmd
-        - Introduction_to_python_1.ipynb
-        - Introduction_to_python_2.ipynb
-        - Introduction_to_python_3.ipynb
-        - Introduction_to_python_4.ipynb
-    - part: "Working With Data"
+        - medical-images.ipynb
+    - part: "Week 2: Scripting"
       chapters:
-        - data-science-with-pandas-1.ipynb
-        - data-science-with-pandas-2.ipynb
-        - data-science-with-pandas-3.ipynb
-        - data-science-with-pandas-4.ipynb
-    - part: "Exercises solutions"
+        - scripting.ipynb
+    - part: "Week 3: Functions"
       chapters:
-        - solutions/morning_exercises_solutions.ipynb
-        - solutions/afternoon_exercises_solutions.ipynb
-    - what-next.qmd
+        - functions.ipynb
+    - part: "Week 4: Programs and Libraries"
+      chapters:
+        - programs-libraries.ipynb
+    - part: "Week 5: Classes and Objects"
+      chapters:
+        - classes-objects.ipynb
+    - part: "Week 6: Programming Languages"
+      chapters:
+        - programming-languages.ipynb
+    - part: "Week 7: Efficient Computation"
+      chapters:
+        - efficient-computation.ipynb
+    - part: "Week 8: Q&A"
+      chapters:
+        - qa.ipynb
     - references.qmd
   repo-url: https://github.com/umcu-isi/programming-for-medical-imaging/
   repo-subdir: book
   issue-url: https://github.com/umcu-isi/programming-for-medical-imaging/issues/new
   repo-actions: [edit, issue, source]
   sidebar:
-    logo: images/python-hex-logo.png
+    logo: images/python-logo-pmi.png
 
 bibliography: references.bib
 
