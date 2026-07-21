@@ -10,13 +10,13 @@ All of the software and data used are freely available online, and instructions 
 
 In this course, we will be using Python 3 with some of its most popular scientific libraries.
 
-Python 3 itself can be downloaded and installed from https://www.python.org/downloads/.
+Python 3 itself can be downloaded and installed from [https://www.python.org/downloads/](https://www.uu.nl/en/education/phd-at-the-graduate-school-of-life-sciences/phd-supervisors/training-in-supervision/supervising-phd-candidates-at-the-gsls).
 Follow the steps on this website to download and install Python 3.14.x for Windows or MacOS. Just ask for help during the practical sessions or on Teams when something isn't clear. 
 
 
 ## Step 2: Install Jupyter Lab
 
-We will teach the basics of Python programming using the [Jupyter Lab][https://jupyter.org/], a scripting environment that runs 
+We will teach the basics of Python programming using the [Jupyter Lab](https://jupyter.org/), a scripting environment that runs 
 in a web browser.
 
 Follow these steps to install Jupyter Lab:
