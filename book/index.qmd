@@ -10,4 +10,6 @@ The course includes algorithms and data structures used in medical image analysi
 
 This course follows the *flipped classroom* principle: courses are a combination of online material and exercises, with practical sessions under supervision at the UMC Utrecht.
 
+---
+
 The course material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/umcu-isi/programming-for-medical-imaging).

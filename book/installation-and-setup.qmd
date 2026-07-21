@@ -6,180 +6,102 @@ The course materials are designed to be run on a personal computer.
 All of the software and data used are freely available online,
 and instructions on how to obtain them are provided below.
 
+
 ## Step 1: Install Python
 
 In this course, we will be using Python 3 with some of its most popular scientific libraries.
 
 Python 3 itself can be downloaded and installed from https://www.python.org/downloads/.
-Follow the steps on this website to download and install Python 3.14.x for Windows/MacOS/Linux. Just ask for help during the practical sessions or on Teams when something isn't clear. 
+Follow the steps on this website to download and install Python 3.14.x for Windows or MacOS. Just ask for help during the practical sessions or on Teams when something isn't clear. 
+
+
+## Step 2: Install Jupyter Lab
 
 We will teach the basics of Python programming using the [Jupyter Lab][jupyter], a scripting environment that runs 
 in a web browser.
-
-
-
- Easiest way of installing and and running jupyterlab?
-Through pip, uv, or PyCharm?
-
-
-
 
 Follow these steps to install Jupyter Lab:
 
 ::: {.panel-tabset}
 ## Windows
-1. Open a Windows PowerShell
+1. Open a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
+
 2. Create a directory for the course, for example `pmi`, and enter it:
 ```powershell
-cd ~
-mkdir pmi
-cd pmi
+cd ~       # Changes directory to your home directory.
+mkdir pmi  # Makes a directory named 'pmi'.
+cd pmi     # Changes directory into 'pmi'. 
 ```
+
 3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
 ```powershell
-py -V:3.14 -m venv .venv
+py -V:3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
 ```
 
+4. Activate the virtual environment:
 ```powershell
-.\.venv\Scripts\Activate.ps1
-```
-```powerhell
-pip install jupyterlab
+.\.venv\Scripts\Activate.ps1  # Runs the script 'Activate.ps1' to activate the virtual environment.
 ```
 
-
+5. Install Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
 ```powershell
-cd ~\pmi
-.\.venv\Scripts\Activate.ps1
-jupyter-lab
+pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
 ```
+
+6. Start Jupyter Lab:
+```powershell
+jupyter-lab  # Starts Jupyter Lab.
+```
+
+When you need to start Jupyter Lab again, just repeat steps 4 and 6.
+
 ## MacOS 
-1.
+1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app.
+
+2. Create a directory for the course, for example `pmi`, and enter it:
+```shell
+cd ~       # Changes directory to your home directory.
+mkdir pmi  # Makes a directory named 'pmi'.
+cd pmi     # Changes directory into 'pmi'. 
+```
+
+3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
+```shell
+python3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
+```
+
+4. Activate the virtual environment:
+```shell
+source .venv/bin/activate  # Runs the script 'activate' to activate the virtual environment.
+```
+
+5. Install Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
+```shell
+pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
+```
+
+6. Start Jupyter Lab:
+```shell
+jupyter-lab  # Starts Jupyter Lab.
+```
+
+When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 :::
 
-## Step 2: Obtain lesson materials
 
-1. Download the zip folder with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
+## Step 3: Obtain course materials
+
+1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
  (see [Course Materials][course-materials]).
-2. Create a folder called `python-workshop` on your Desktop (or any other place where you want to store the materials).
-3. Move the downloaded zip to the folder where you want to store these course materials.
-4. Unzip the zip file.
+2. Create a directory called `course-materials` in your `pmi` directory.
+3. Unzip the zip file in this new directory.
 
-In your `python-workshop` you will see a folders called `data` and the following files:
+In your `course-materials` you will see a folder called `data` and several `.ipynb` files.
 
-```
-python-workshop
-├── data
-│   ├── species.csv
-│   ├── surveys.csv
-│   └── plots.csv
-├── morning_exercises.ipynb 
-├── afternoon_exercises.ipynb 
-└── preparation.ipynb
-```
 
-## Step 3: Start Jupyter interface and complete `preparation.ipynb`
+## Step 4: Start Jupyter Lab and complete `preparation.ipynb`
 
-To start working with Python, we need to launch a program that will interpret and execute our
-Python commands. Below we list several options. If you don't have a preference, proceed with the
-top option in the list that is available on your machine. Otherwise, you may use any interface
-you like.
+Open a terminal, change directory to your `pmi` directory, start Jupyter Lab, and open the notebook `preparation.ipynb` from `course-materials`.
 
-### Option A: Jupyter Notebook
-
-A Jupyter Notebook provides a browser-based interface for working with Python.
-If you installed Anaconda, you can launch a notebook in two ways:
-
-::: {.panel-tabset}
-## Anaconda Navigator
-1. Launch Anaconda Navigator.
-It might ask you if you'd like to send anonymized usage information to Anaconda developers.
-Make your choice and click "Ok, and don't show again" button.
-2. Find the "Notebook" tab and click on the "Launch" button.
-Anaconda will open a new browser window or tab with a Notebook Dashboard showing you the
-contents of your Home (or User) folder.
-3. Navigate to the `data` directory by clicking on the directory names leading to it.
-`Desktop`, `python-workshop`, then `data`:
-4. Launch the notebook called `preparation.ipynb` by clicking on it. 
-5. Follow the instructions in the notebook to finalize your preparation for the workshop. If the output of the last cell displays 4 version numbers and the words "No errors! Ready to code!" instead of an error message, your installation is successful. If not, contact us at [RDM walk in hours][walk-in-hours] or reply to the welcome email.
-
-## Command line (Terminal)
-1. Navigate to the `python-workshop` directory:<br>
-	**Unix shell**<br>
-	If you're using a Unix shell application, such as Terminal app in macOS, Console or Terminal
-	in Linux, or [Git Bash][gitbash] on Windows, execute the following command:
-	```{bash}
-	cd ~/Desktop/python-workshop
-	```
-
-	**Command Prompt (Windows)**<br>
-	On Windows, you can use its native Command Prompt program.  The easiest way to start it up is
-	pressing <kbd>Windows Logo Key</kbd>+<kbd>R</kbd>, entering `cmd`, and hitting
-	<kbd>Return</kbd>. In the Command Prompt, use the following command to navigate to
-	the `data` folder:
-	```{sh}
-	cd /D %userprofile%\Desktop\python-workshop
-	```
-2. Start Jupyter server:<br>
-	**Unix shell**
-	```{bash}
-	jupyter notebook
-	```
-
-	**Command Prompt (Windows)**
-	```{sh}
-	python -m notebook
-	```
-3. Launch the notebook called `preparation.ipynb` via the 'File' menu. 
-4. Follow the instructions in the notebook to finalize your preparation for the workshop. If the output of the last cell displays 4 version numbers and the words "No errors! Ready to code!" instead of an error message, your installation is successful. If not, contact us at [RDM walk in hours][walk-in-hours] or reply to the welcome email.
-:::
-
-### Option B: IPython interpreter
-
-IPython is an alternative solution situated somewhere in between the plain-vanilla Python
-interpreter and Jupyter Notebook. It provides an interactive command-line based interpreter with
-various convenience features and commands. You should have IPython on your system if you installed
-[Anaconda][anaconda-website].
-
-To start using IPython, execute:
-```{bash}
-ipython
-```
-
-### Option C: plain-vanilla Python interpreter
-
-To launch a plain-vanilla Python interpreter, execute:
-```{bash}
-python
-```
-
-If you are using [Git Bash on Windows][gitbash], you have to call Python _via_ `winpty`:
-```{bash}
-winpty python
-```
-
-## Python packages
-
-This workshop will make use of the following Python packages:
-
-- `pandas`
-- `matplotlib`
-- `numpy`
-
-Anaconda Navigator comes with these packages, so you are ready to go. If you are using another option to work with Python, you need to install these packages. We then assume that you know how to install packages, otherwise we recommend using Anaconda instead. If for some reason you cannot work with Anaconda and you need help with installing packages, we are happy to help during the [RDM walk in hours](https://www.uu.nl/en/research/research-data-management/workshops/walk-in-hours-research-data-and-software), or email us by replying to the welcome email.
-
-## References {.unnumbered}
-
-The instructions on this page were adapted from the [setup instructions of the Software Carpentries "Programming with Python" course][swcarpentry-python] and [their Workshop Template Python installation instructions][carpentries-template], both released under the [Creative Commons Attribution license][license]. Changes to the material were made, and can be tracked in the Git repository associated with this course.
-
-[anaconda-install]: https://docs.anaconda.com/anaconda/install
-[anaconda-website]: https://www.anaconda.com/
-[carpentries-template]: https://carpentries.github.io/workshop-template/#python
 [course-materials]: ./course-materials.qmd
-[gitbash]: https://gitforwindows.org
 [jupyter]: https://jupyter.org/
-[jupyter-compatibility]: https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility
-[license]: https://creativecommons.org/licenses/by/4.0/
-[python]: https://python.org
-[swcarpentry-python]: https://swcarpentry.github.io/python-novice-inflammation/setup.html
-[walk-in-hours]: https://www.uu.nl/en/research/research-data-management/walk-in-hours-workshops/walk-in-hours-research-data-software
