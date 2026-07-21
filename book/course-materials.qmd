@@ -1,11 +1,17 @@
 # Course Materials {.unnumbered}
 
-You can download the course materials collectively in a zipped file or separately using the links further below. Please make sure that all workshop-related files are contained within a single folder and placed in a location accessible to your system.
+Now you've installed Python and Jupyter Lab, you're ready to download and open the course materials:
 
-## Zipped File
 
-The following zipped file contains the notebooks and data required for the workshop. 
+# Step 1: Obtain course materials
 
-- [course_materials.zip](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
+1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
+2. Create a directory called `course-materials` in your `pmi` directory.
+3. Unzip the zip file in this new directory.
 
-Don't forget to extract the contents of the zipped file after downloading!
+In your `course-materials` you will see a folder called `data` and several `.ipynb` files.
+
+
+## Step 2: Start Jupyter Lab and complete `preparation.ipynb`
+
+Open a terminal, change directory to your `pmi` directory, start Jupyter Lab, and open the notebook `preparation.ipynb` from `course-materials`.

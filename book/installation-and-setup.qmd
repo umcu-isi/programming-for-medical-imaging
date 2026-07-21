@@ -3,8 +3,7 @@
 ## Overview
 
 The course materials are designed to be run on a personal computer.
-All of the software and data used are freely available online,
-and instructions on how to obtain them are provided below.
+All of the software and data used are freely available online, and instructions on how to obtain them are provided below.
 
 
 ## Step 1: Install Python
@@ -17,7 +16,7 @@ Follow the steps on this website to download and install Python 3.14.x for Windo
 
 ## Step 2: Install Jupyter Lab
 
-We will teach the basics of Python programming using the [Jupyter Lab][jupyter], a scripting environment that runs 
+We will teach the basics of Python programming using the [Jupyter Lab][https://jupyter.org/], a scripting environment that runs 
 in a web browser.
 
 Follow these steps to install Jupyter Lab:
@@ -59,49 +58,31 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app.
 
 2. Create a directory for the course, for example `pmi`, and enter it:
-```shell
+```zsh
 cd ~       # Changes directory to your home directory.
 mkdir pmi  # Makes a directory named 'pmi'.
 cd pmi     # Changes directory into 'pmi'. 
 ```
 
 3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
-```shell
+```zsh
 python3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
 ```
 
 4. Activate the virtual environment:
-```shell
+```zsh
 source .venv/bin/activate  # Runs the script 'activate' to activate the virtual environment.
 ```
 
 5. Install Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
-```shell
+```zsh
 pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
 ```
 
 6. Start Jupyter Lab:
-```shell
+```zsh
 jupyter-lab  # Starts Jupyter Lab.
 ```
 
 When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 :::
-
-
-## Step 3: Obtain course materials
-
-1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
- (see [Course Materials][course-materials]).
-2. Create a directory called `course-materials` in your `pmi` directory.
-3. Unzip the zip file in this new directory.
-
-In your `course-materials` you will see a folder called `data` and several `.ipynb` files.
-
-
-## Step 4: Start Jupyter Lab and complete `preparation.ipynb`
-
-Open a terminal, change directory to your `pmi` directory, start Jupyter Lab, and open the notebook `preparation.ipynb` from `course-materials`.
-
-[course-materials]: ./course-materials.qmd
-[jupyter]: https://jupyter.org/
