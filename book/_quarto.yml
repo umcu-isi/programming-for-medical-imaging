@@ -15,29 +15,29 @@ book:
       chapters: 
         - installation-and-setup.qmd
         - course-materials.qmd
-    - part: "Week 1"
+    - part: "Week 1: Images"
       chapters: 
         - introduction.qmd
         - medical-images.ipynb
-    - part: "Week 2"
+    - part: "Week 2: Scripting"
       chapters:
-        - scripting.ipynb
-    - part: "Week 3"
+        - scripting-variables-types.ipynb
+    - part: "Week 3: Functions"
       chapters:
         - functions.ipynb
-    - part: "Week 4"
+    - part: "Week 4: Libraries"
       chapters:
         - programs-libraries.ipynb
-    - part: "Week 5"
+    - part: "Week 5: Classes"
       chapters:
         - classes-objects.ipynb
-    - part: "Week 6"
+    - part: "Week 6: Languages"
       chapters:
         - programming-languages.ipynb
-    - part: "Week 7"
+    - part: "Week 7: Computation"
       chapters:
         - efficient-computation.ipynb
-    - part: "Week 8"
+    - part: "Week 8: Q&A"
       chapters:
         - qa.ipynb
     - references.qmd
