@@ -20,10 +20,9 @@ book:
         - installation-and-setup.qmd
         - course-materials.qmd
         - scripting-variables-types.ipynb
-        - scripting-reading-writing.ipynb
+        - scripting-data.ipynb
     - part: "Week 3: Functions"
       chapters:
-        - functions.ipynb
         - functions-comparisons.ipynb
         - functions-iteration.ipynb
         - functions-functions.ipynb
@@ -55,3 +54,4 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    link-external-newwindow: true
