@@ -13,8 +13,8 @@ book:
     - acknowledgements.qmd
     - part: "Week 1: Images"
       chapters: 
-        - introduction.qmd
         - medical-images.ipynb
+        - introduction.qmd
     - part: "Week 2: Scripting"
       chapters:
         - installation-and-setup.qmd
