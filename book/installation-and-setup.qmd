@@ -26,31 +26,33 @@ Follow these steps to install Jupyter Lab:
 1. Open a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
 
 2. Create a directory for the course, for example `pmi`, and enter it:
-```powershell
-cd ~       # Changes directory to your home directory.
-mkdir pmi  # Makes a directory named 'pmi'.
-cd pmi     # Changes directory into 'pmi'. 
-```
+   ```powershell
+   cd ~       # Changes directory to your home directory.
+   mkdir pmi  # Makes a directory named 'pmi'.
+   cd pmi     # Changes directory into 'pmi'. 
+   ```
 
-3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
-```powershell
-py -V:3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
-```
+3. Inside the `pmi` directory, run this command to create a so-called *virtual environment* (venv):
+   ```powershell
+   py -V:3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
+   ```
 
 4. Activate the virtual environment:
-```powershell
-.\.venv\Scripts\Activate.ps1  # Runs the script 'Activate.ps1' to activate the virtual environment.
-```
+   ```powershell
+   .\.venv\Scripts\Activate.ps1  # Runs the script 'Activate.ps1' to activate the virtual environment.
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
-```powershell
-pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
-```
+5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment.
+   These are packages that we will use throughout the course. 
+   ```powershell
+   pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
+   ```
 
 6. Start Jupyter Lab:
-```powershell
-jupyter-lab  # Starts Jupyter Lab.
-```
+   ```powershell
+   jupyter-lab  # Starts Jupyter Lab.
+   ```
 
 When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 
@@ -58,31 +60,48 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app.
 
 2. Create a directory for the course, for example `pmi`, and enter it:
-```zsh
-cd ~       # Changes directory to your home directory.
-mkdir pmi  # Makes a directory named 'pmi'.
-cd pmi     # Changes directory into 'pmi'. 
-```
+   ```zsh
+   cd ~       # Changes directory to your home directory.
+   mkdir pmi  # Makes a directory named 'pmi'.
+   cd pmi     # Changes directory into 'pmi'. 
+   ```
 
 3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
-```zsh
-python3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
-```
+   ```zsh
+   python3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
+   ```
 
 4. Activate the virtual environment:
-```zsh
-source .venv/bin/activate  # Runs the script 'activate' to activate the virtual environment.
-```
+   ```zsh
+   source .venv/bin/activate  # Runs the script 'activate' to activate the virtual environment.
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
-```zsh
-pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
-```
+5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
+   These are packages that we will use throughout the course.
+   ```zsh
+   pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
+   ```
 
 6. Start Jupyter Lab:
-```zsh
-jupyter-lab  # Starts Jupyter Lab.
-```
+   ```zsh
+   jupyter-lab  # Starts Jupyter Lab.
+   ```
 
 When you need to start Jupyter Lab again, just repeat steps 4 and 6.
+
+## FAQ
+> *I'm getting the error `Program 'pip.exe' failed to run: This program is blocked by group policy.`*
+
+Try running `python -m pip` instead.
+
+> *I'm getting the error `Program 'jupyter-lab.exe' failed to run: This program is blocked by group policy.`*
+
+Try running `python -m jupyterlab` instead.
+
+> Executing `.\.venv\Scripts\Activate.ps1` just opens the file in Notepad.
+
+This script is meant to be executed in a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
+From a classic Windows Command Prompt, you could run `.\.venv\Scripts\Activate.bat` instead.
+
 :::
