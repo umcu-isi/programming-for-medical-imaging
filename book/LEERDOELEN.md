@@ -10,6 +10,7 @@ Na dit college kunnen studenten:
 * [ ] typische uitdagingen van medische beelddata benoemen, zoals anisotrope resolutie en verschillen tussen slice-thickness en -spacing.
 
 _Practical session: aan de slag met beelden in MicroDICOM en ITKSnap._
+_DICOM tag browser: https://dicom.innolitics.com/_
 
 
 ## Week 2: Scripting
@@ -18,8 +19,9 @@ Na dit college kunnen studenten:
 * [x] variabelen, numerieke typen en expressies gebruiken;
 * [x] functie-aanroepen uit externe libraries toepassen;
 * [x] tekstfiles lezen en schrijven;
-* [ ] medische beeldbestanden openen met bestaande Python libraries;
-* [ ] medische beelden visualiseren en eenvoudige plots maken;
+* [ ] string formatting gebruiken;
+* [x] medische beeldbestanden openen met bestaande Python libraries;
+* [x] medische beelden visualiseren en eenvoudige plots maken;
 * [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code;
 * [x] foutmeldingen interpreteren en corrigeren;
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
