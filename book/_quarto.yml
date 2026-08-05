@@ -8,6 +8,7 @@ book:
   author: "Image Sciences Institute<br>UMC Utrecht"
   date: last-modified
   search: true
+  favicon: images/favicon.png
   chapters:
     - index.qmd
     - acknowledgements.qmd
