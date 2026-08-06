@@ -6,7 +6,7 @@ Na dit college kunnen studenten:
 * [ ] onderscheid maken tussen pixelwaarden, intensiteiten en fysieke betekenis;
 * [ ] uitleggen wat spacing, origin en oriëntatie betekenen; *verschil tussen thickness en spacing uitleggen*
 * [ ] opbouw van 2D-, 3D- en 4D-beelden beschrijven;
-* [ ] de basisstructuur van DICOM- en NIfTI-bestanden beschrijven;
+* [ ] de basisstructuur van DICOM- en Nifti-bestanden beschrijven;
 * [ ] typische uitdagingen van medische beelddata benoemen, zoals anisotrope resolutie en verschillen tussen slice-thickness en -spacing.
 
 _Practical session: aan de slag met beelden in MicroDICOM en ITKSnap._
@@ -20,15 +20,15 @@ Na dit college kunnen studenten:
 * [x] functie-aanroepen uit externe libraries toepassen;
 * [x] tekstfiles lezen en schrijven;
 * [ ] string formatting gebruiken;
-* [x] medische beeldbestanden openen met bestaande Python libraries;
-* [x] medische beelden visualiseren en eenvoudige plots maken;
+* [x] medische beeldbestanden (DICOM) openen met bestaande Python libraries (pydicom);
+* [x] medische beelden visualiseren en eenvoudige plots maken (2D, 3D met 1 slice, 3D met scrollable viewer);
 * [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code;
 * [x] foutmeldingen interpreteren en corrigeren;
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
 
 _Dit daarna vergelijken met intro van AI en IP courses en gelijk trekken waar mogelijk._
 
-_Assignment: DICOM beeld openen, iets uitrekenen, resultaat printen en in tekstfile wegschrijven._
+_Assignment: DICOM beeld openen, iets uitrekenen (gemiddelde, histogram met bin-size als parameter?), resultaat printen en in tekstfile wegschrijven. Nog geen Nifti gebruiken._
 
 
 ## Week 3: Functions
@@ -45,7 +45,7 @@ Na dit college kunnen studenten:
 * [ ] versiebeheer toepassen met Git (clone, add, commit, push, pull);
 * [ ] uitleggen waarom modulaire software beter onderhoudbaar is.
 
-_Assignment: Functie schrijven om DICOM beeld te openen en als dictionary terug te geven. Opslaan als NIfTI_
+_Assignment: Functie schrijven om DICOM beeld te openen en als dictionary terug te geven. Ook Nifti inlezen. Generieke scrollable viewer voor alle 3D data. Beelden verwerken (bijv drempelen) en opslaan als Nifti_
 
 
 ## Week 4: Libraries
