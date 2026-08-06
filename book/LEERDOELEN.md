@@ -21,8 +21,8 @@ Na dit college kunnen studenten:
 * [x] tekstfiles lezen en schrijven;
 * [ ] string formatting gebruiken;
 * [x] medische beeldbestanden (DICOM) openen met bestaande Python libraries (pydicom);
-* [x] medische beelden visualiseren en eenvoudige plots maken (2D, 3D met 1 slice, 3D met scrollable viewer);
-* [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code;
+* [x] medische beelden visualiseren en eenvoudige plots maken (alleen 2D);
+* [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code; (NIET)
 * [x] foutmeldingen interpreteren en corrigeren;
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
 
@@ -44,8 +44,10 @@ Na dit college kunnen studenten:
 * [ ] eenvoudige programmeerfouten herkennen en oplossen;
 * [ ] versiebeheer toepassen met Git (clone, add, commit, push, pull);
 * [ ] uitleggen waarom modulaire software beter onderhoudbaar is.
+* [ ] visualisatie van 3D met 1 slice, 3D met scrollable viewer
 
 _Assignment: Functie schrijven om DICOM beeld te openen en als dictionary terug te geven. Ook Nifti inlezen. Generieke scrollable viewer voor alle 3D data. Beelden verwerken (bijv drempelen) en opslaan als Nifti_
+_Graded assignment: form_
 
 
 ## Week 4: Libraries
