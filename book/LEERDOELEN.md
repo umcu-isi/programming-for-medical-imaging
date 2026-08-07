@@ -19,12 +19,12 @@ Na dit college kunnen studenten:
 * [x] variabelen, numerieke typen en expressies gebruiken;
 * [x] functie-aanroepen uit externe libraries toepassen;
 * [x] tekstfiles lezen en schrijven;
-* [ ] string formatting gebruiken;
+* [x] string formatting gebruiken;
+* [x] numpy arrays gebruiken;
 * [x] medische beeldbestanden (DICOM) openen met bestaande Python libraries (pydicom);
 * [x] medische beelden visualiseren en eenvoudige plots maken (alleen 2D);
 * [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code; (NIET)
 * [x] foutmeldingen interpreteren en corrigeren;
-* [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
 
 _Dit daarna vergelijken met intro van AI en IP courses en gelijk trekken waar mogelijk._
 
@@ -33,6 +33,7 @@ _Assignment: DICOM beeld openen, iets uitrekenen (gemiddelde, histogram met bin-
 
 ## Week 3: Functions
 Na dit college kunnen studenten:
+* [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
 * [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, return type, return value)*
 * [ ] invoer en uitvoer verwerken in command-line programma’s;
 * [ ] iteratie en conditionele logica toepassen;
