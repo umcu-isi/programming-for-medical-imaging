@@ -22,6 +22,7 @@ Na dit college kunnen studenten:
 * [ ] string formatting gebruiken;
 * [x] medische beeldbestanden openen met bestaande Python libraries;
 * [x] medische beelden visualiseren en eenvoudige plots maken;
+* [ ] eenvoudige matrix-bewerkingen uitvoeren met NumPy. 
 * [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code;
 * [x] foutmeldingen interpreteren en corrigeren;
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
