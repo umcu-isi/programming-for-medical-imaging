@@ -17,6 +17,7 @@ _DICOM tag browser: https://dicom.innolitics.com/_
 Na dit college kunnen studenten:
 * [x] eenvoudige Python-scripts uitvoeren in een Jupyter notebook;
 * [x] variabelen, numerieke typen en expressies gebruiken;
+* [x] casting begrijpen en gebruiken;
 * [x] functie-aanroepen uit externe libraries toepassen;
 * [x] tekstfiles lezen en schrijven;
 * [x] string formatting gebruiken;
@@ -35,6 +36,7 @@ _Assignment: DICOM beeld openen, iets uitrekenen (gemiddelde, histogram met bin-
 Na dit college kunnen studenten:
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
 * [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, return type, return value)*
+* [ ] de scope van variabelen en functies uitleggen;
 * [ ] invoer en uitvoer verwerken in command-line programma’s;
 * [ ] iteratie en conditionele logica toepassen;
 * [ ] geschikte datastructuren gebruiken voor eenvoudige toepassingen; *(containers/iterables; list, tuple, dict)*
@@ -63,6 +65,7 @@ Na dit college kunnen studenten:
 * [ ] het belang van (unit) tests uitleggen;
 * [ ] veelgebruikte Python libraries benoemen (pandas, numpy, scipy, pydicom, nibabel, pytorch);
 * [ ] het belang van dependency/environment management uitleggen. _(Python virtual environments)_
+* [ ] 
 
 _Assignment: Een library maken voor o.a. de functies van vorige week. hatch gebruiken._
 
