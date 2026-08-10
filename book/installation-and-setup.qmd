@@ -48,6 +48,7 @@ Follow these steps to install Jupyter Lab:
    ```powershell
    pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
    ```
+   *(Note: this may take a few minutes.)*
 
 6. Start Jupyter Lab:
    ```powershell
