@@ -82,6 +82,7 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
    ```zsh
    pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
    ```
+   *(Note: this may take a few minutes.)*
 
 6. Start Jupyter Lab:
    ```zsh
