@@ -24,7 +24,6 @@ Na dit college kunnen studenten:
 * [x] numpy arrays gebruiken;
 * [x] medische beeldbestanden (DICOM) openen met bestaande Python libraries (pydicom);
 * [x] medische beelden visualiseren en eenvoudige plots maken (alleen 2D);
-* [ ] eenvoudige Matlab-code vergelijken met equivalente Python-code; (NIET)
 * [x] foutmeldingen interpreteren en corrigeren;
 
 _Dit daarna vergelijken met intro van AI en IP courses en gelijk trekken waar mogelijk._
@@ -35,22 +34,21 @@ _Assignment: DICOM beeld openen, iets uitrekenen (gemiddelde, histogram met bin-
 ## Week 3: Functions
 Na dit college kunnen studenten:
 * [ ] uitleggen wanneer scripting geschikt is voor data-analyse en prototyping.
-* [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, return type, return value)*
-* [ ] de scope van variabelen en functies uitleggen;
-* [ ] invoer en uitvoer verwerken in command-line programma’s;
-* [ ] iteratie en conditionele logica toepassen;
-* [ ] geschikte datastructuren gebruiken voor eenvoudige toepassingen; *(containers/iterables; list, tuple, dict)*
+* [ ] uitleggen wat copy by reference en copy by value betekenen; *id functie, voorbeelden geven*
 * [ ] verschil tussen value en reference uitleggen; *(Python gebruikt return by reference voor objecten)*
+* [ ] numerieke datatypes begrijpen; *(bool, uint8, etc.)*
+* [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, return type, return value)*
+* [ ] de scope van variabelen en functies uitleggen; *(indentation vs `{}` in veel andere talen)*
+* [ ] invoer en uitvoer verwerken in command-line programma’s;
+* [ ] iteratie en conditionele logica toepassen; *(ook `enumerate` en `if x in y`)*
+* [ ] list comprehension toepassen;
+* [ ] geschikte datastructuren gebruiken voor eenvoudige toepassingen; *(containers/iterables; list, tuple, dict)*
 * [ ] doel van duidelijke inline comments en functie- en variabelenamen inzien;
-* [ ] debuggingtools in een IDE gebruiken; *stack trace*
-* [ ] typing / type hints in Python begrijpen en toepassen;
 * [ ] eenvoudige programmeerfouten herkennen en oplossen;
-* [ ] versiebeheer toepassen met Git (clone, add, commit, push, pull);
-* [ ] uitleggen waarom modulaire software beter onderhoudbaar is.
 * [ ] visualisatie van 3D met 1 slice, 3D met scrollable viewer
 
-_Assignment: Functie schrijven om DICOM beeld te openen en als dictionary terug te geven. Ook Nifti inlezen. Generieke scrollable viewer voor alle 3D data. Beelden verwerken (bijv drempelen) en opslaan als Nifti_
-_Graded assignment: form_
+_Graded? Assignment: Functie schrijven om DICOM beeld te openen en als dictionary terug te geven. Ook Nifti inlezen. Generieke scrollable viewer voor alle 3D data. Beelden verwerken (bijv drempelen) en opslaan als Nifti_
+_Of Graded assignment: form?_
 
 
 ## Week 4: Libraries
@@ -59,13 +57,16 @@ Na dit college kunnen studenten:
 * [ ] eigen Python modules en libraries structureren;
 * [ ] code hergebruiken vanuit Jupyter notebooks;
 * [ ] software opdelen in meerdere bestanden en modules;
+* [ ] versiebeheer toepassen met Git (clone, add, commit, push, pull);
 * [ ] samenwerken via Git branches en merges;
+* [ ] uitleggen waarom modulaire software beter onderhoudbaar is.
 * [ ] versiebeheer gebruiken om softwareontwikkeling te organiseren;
 * [ ] uitleggen waarom softwarebibliotheken belangrijk zijn voor schaalbare wetenschappelijke software;
 * [ ] het belang van (unit) tests uitleggen;
 * [ ] veelgebruikte Python libraries benoemen (pandas, numpy, scipy, pydicom, nibabel, pytorch);
-* [ ] het belang van dependency/environment management uitleggen. _(Python virtual environments)_
-* [ ] 
+* [ ] het belang van dependency/environment management uitleggen. _(Python virtual environments);
+* [ ] typing / type hints in Python begrijpen en toepassen;
+* [ ] debuggingtools in een IDE gebruiken; *stack trace*
 
 _Assignment: Een library maken voor o.a. de functies van vorige week. hatch gebruiken._
 
@@ -77,7 +78,7 @@ Na dit college kunnen studenten:
 * [ ] eenvoudige classes ontwerpen en implementeren;
 * [ ] constructors gebruiken om objecten te initialiseren;
 * [ ] het nut van publieke, protected en private attributen uitleggen; *(n.b. in Python zijn dit enkel hints; '\_' voor protected en '\_\_' voor private)*
-* [ ] operator overloading toepassen;
+* [ ] operator overloading toepassen; *ook methods with a special meaning like ' __get_item__ en __set_item__*
 * [ ] inheritance gebruiken voor codehergebruik.
 
 _Assignment: Een Image class maken, en afgeleide klasses; DicomImage, RGBImage. Library aanpassen._

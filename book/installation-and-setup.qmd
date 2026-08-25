@@ -46,7 +46,7 @@ Follow these steps to install Jupyter Lab:
 5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment.
    These are packages that we will use throughout the course. 
    ```powershell
-   pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
@@ -81,7 +81,7 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
    These are packages that we will use throughout the course.
    ```zsh
-   pip install jupyterlab numpy matplotlib pandas pillow pydicom  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
