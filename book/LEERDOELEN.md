@@ -69,6 +69,33 @@ Na dit college kunnen studenten:
 * [ ] debuggingtools in een IDE gebruiken; *stack trace*
 
 _Assignment: Een library maken voor o.a. de functies van vorige week. hatch gebruiken._
+1. pycharm --> file --> create new project
+2. screenshot new project
+3. wait until finished (status bar bottom)
+5. view hidden items in Explorer (MacOS?); .idea, .venv
+6. screenshot terminal --> `pip install hatch`
+7. `hatch new "PMI lib"`:
+`hatch` takes care of the directory layout, naming conventions, configuration files, etc.
+```
+pmi-lib
+├── src
+│   └── pmi_lib
+│       ├── __about__.py
+│       └── __init__.py
+├── tests
+│   └── __init__.py
+├── LICENSE.txt
+├── README.md
+└── pyproject.toml
+```
+Take a quick look at `pmi-lib/pyproject.toml` and `pmi-lib/README.md`.
+`pyproject.toml` is the project configuration file. Most importantly, it lists the *dependencies*, i.e. the packages required by your project. This list is still empty right now because we have not written any code yet: `dependencies = []`.
+
+It also contains project details such as the license. By default, a permissive *MIT license* is used. For open-source software, a license is important because, under general copyright law, others would not automatically be allowed to use, modify, or distribute the code without the author's permission.
+
+Every directory containing an `__init__.py` file is considered a python package.
+
+8. Create a file `pmi-lib/src/pmi_lib/io.py`
 
 
 ## Week 5: Classes

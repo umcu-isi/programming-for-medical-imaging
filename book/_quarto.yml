@@ -9,7 +9,6 @@ book:
   date: last-modified
   search: true
   favicon: images/favicon.png
-  number-depth: 2
   chapters:
     - index.qmd
     - acknowledgements.qmd
@@ -57,3 +56,4 @@ format:
   html:
     theme: cosmo
     link-external-newwindow: true
+    number-depth: 2
