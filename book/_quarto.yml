@@ -3,6 +3,8 @@ project:
 
   output-dir: ./_site
 
+!!! TODO: Week subnummer; 1.1, 1.2, etc. 
+
 book:
   title: "Programming for Medical Imaging"
   author: "Image Sciences Institute<br>UMC Utrecht"
