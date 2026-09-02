@@ -21,7 +21,9 @@ Na dit college kunnen studenten:
 * [x] functie-aanroepen uit externe libraries toepassen;
 * [x] tekstfiles lezen en schrijven;
 * [x] string formatting gebruiken;
+* [ ] speciale karakters gebruiken; (mn `\n` en `\\`, en concept 'raw string': `r''` )
 * [x] numpy arrays gebruiken;
+* [ ] numpy arrays; *(ook slicing, empty dims met `x[None, :]`)*
 * [x] medische beeldbestanden (DICOM) openen met bestaande Python libraries (pydicom);
 * [x] medische beelden visualiseren en eenvoudige plots maken (alleen 2D);
 * [x] foutmeldingen interpreteren en corrigeren;
@@ -37,12 +39,13 @@ Na dit college kunnen studenten:
 * [ ] uitleggen wat copy by reference en copy by value betekenen; *id functie, voorbeelden geven*
 * [ ] verschil tussen value en reference uitleggen; *(Python gebruikt return by reference voor objecten)*
 * [ ] numerieke datatypes begrijpen; *(bool, uint8, etc.)*
-* [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, return type, return value)*
+* [ ] eenvoudige programma’s opdelen in herbruikbare functies; *(functienaam, argumenten, keyword arguments, default values, return type, return value)*
 * [ ] de scope van variabelen en functies uitleggen; *(indentation vs `{}` in veel andere talen)*
 * [ ] invoer en uitvoer verwerken in command-line programma’s;
 * [ ] iteratie en conditionele logica toepassen; *(ook `enumerate` en `if x in y`)*
+* [ ] `*` en `**` operators toepassen;
 * [ ] list comprehension toepassen;
-* [ ] geschikte datastructuren gebruiken voor eenvoudige toepassingen; *(containers/iterables; list, tuple, dict)*
+* [ ] geschikte datastructuren gebruiken voor eenvoudige toepassingen; *(containers/iterables; list, tuple, dict, tuples unpacken)*
 * [ ] doel van duidelijke inline comments en functie- en variabelenamen inzien;
 * [ ] eenvoudige programmeerfouten herkennen en oplossen;
 * [ ] visualisatie van 3D met 1 slice, 3D met scrollable viewer
@@ -54,7 +57,7 @@ _Of Graded assignment: form?_
 ## Week 4: Libraries
 Na dit college kunnen studenten:
 * [ ] bestaande Python libraries installeren en gebruiken;
-* [ ] eigen Python modules en libraries structureren;
+* [ ] eigen Python modules en libraries structureren; *(ook `from . import io` in `__init__` en `from foo import *`)*
 * [ ] code hergebruiken vanuit Jupyter notebooks;
 * [ ] software opdelen in meerdere bestanden en modules;
 * [ ] versiebeheer toepassen met Git (clone, add, commit, push, pull);
@@ -69,33 +72,6 @@ Na dit college kunnen studenten:
 * [ ] debuggingtools in een IDE gebruiken; *stack trace*
 
 _Assignment: Een library maken voor o.a. de functies van vorige week. hatch gebruiken._
-1. pycharm --> file --> create new project
-2. screenshot new project
-3. wait until finished (status bar bottom)
-5. view hidden items in Explorer (MacOS?); .idea, .venv
-6. screenshot terminal --> `pip install hatch`
-7. `hatch new "PMI lib"`:
-`hatch` takes care of the directory layout, naming conventions, configuration files, etc.
-```
-pmi-lib
-├── src
-│   └── pmi_lib
-│       ├── __about__.py
-│       └── __init__.py
-├── tests
-│   └── __init__.py
-├── LICENSE.txt
-├── README.md
-└── pyproject.toml
-```
-Take a quick look at `pmi-lib/pyproject.toml` and `pmi-lib/README.md`.
-`pyproject.toml` is the project configuration file. Most importantly, it lists the *dependencies*, i.e. the packages required by your project. This list is still empty right now because we have not written any code yet: `dependencies = []`.
-
-It also contains project details such as the license. By default, a permissive *MIT license* is used. For open-source software, a license is important because, under general copyright law, others would not automatically be allowed to use, modify, or distribute the code without the author's permission.
-
-Every directory containing an `__init__.py` file is considered a python package.
-
-8. Create a file `pmi-lib/src/pmi_lib/io.py`
 
 
 ## Week 5: Classes

@@ -56,4 +56,3 @@ format:
   html:
     theme: cosmo
     link-external-newwindow: true
-    number-depth: 2
