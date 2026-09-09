@@ -13,36 +13,35 @@ book:
     - index.qmd
     - acknowledgements.qmd
     - part: "Week 1: Images"
-      chapters: 
-        - medical-images.ipynb
+      chapters:
         - introduction.qmd
+        - medical-images.ipynb
+        - installation-and-setup.qmd
     - part: "Week 2: Scripting"
       chapters:
-        - installation-and-setup.qmd
-        - course-materials.qmd
         - scripting-variables-types.ipynb
         - scripting-data.ipynb
-    - part: "Week 3: Functions"
-      chapters:
-        - functions-comparisons.ipynb
-        - functions-iteration.ipynb
-        - functions-functions.ipynb
-    - part: "Week 4: Libraries"
-      chapters:
-        - programs-libraries.ipynb
-    - part: "Week 5: Classes"
-      chapters:
-        - classes-objects.ipynb
-    - part: "Week 6: Languages"
-      chapters:
-        - programming-languages.ipynb
-    - part: "Week 7: Computation"
-      chapters:
-        - computation.ipynb
-    - part: "Week 8: Q&A"
-      chapters:
-        - qa.ipynb
-    - references.qmd
+#    - part: "Week 3: Functions"
+#      chapters:
+#        - functions-comparisons.ipynb
+#        - functions-iteration.ipynb
+#        - functions-functions.ipynb
+#    - part: "Week 4: Libraries"
+#      chapters:
+#        - programs-libraries.ipynb
+#    - part: "Week 5: Classes"
+#      chapters:
+#        - classes-objects.ipynb
+#    - part: "Week 6: Languages"
+#      chapters:
+#        - programming-languages.ipynb
+#    - part: "Week 7: Computation"
+#      chapters:
+#        - computation.ipynb
+#    - part: "Week 8: Q&A"
+#      chapters:
+#        - qa.ipynb
+#    - references.qmd
   repo-url: https://github.com/umcu-isi/programming-for-medical-imaging/
   repo-subdir: book
   issue-url: https://github.com/umcu-isi/programming-for-medical-imaging/issues/new

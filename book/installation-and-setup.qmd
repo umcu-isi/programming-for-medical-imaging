@@ -1,4 +1,4 @@
-# Installation & Setup {.unnumbered}
+# Installation & Setup
 
 ## Overview
 
@@ -43,7 +43,7 @@ Follow these steps to install Jupyter Lab:
    ```
    The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment.
+5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
    These are packages that we will use throughout the course. 
    ```powershell
    pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pyside6  # Installs several packages.
@@ -54,6 +54,8 @@ Follow these steps to install Jupyter Lab:
    ```powershell
    jupyter-lab  # Starts Jupyter Lab.
    ```
+
+7. When you're finished with Jupyter Lab, just close the Windows terminal and browser tab.
 
 When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 
@@ -78,7 +80,7 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
    ```
    The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install the *packages* Jupyter Lab, numpy, matplotlib, pandas, pillow and pydicom in the virtual environment:
+5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
    These are packages that we will use throughout the course.
    ```zsh
    pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pyside6  # Installs several packages.
@@ -89,6 +91,8 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
    ```zsh
    jupyter-lab  # Starts Jupyter Lab.
    ```
+
+7. When you're finished with Jupyter Lab, just close the terminal app and browser tab.
 
 When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 
@@ -105,5 +109,71 @@ Try running `python -m jupyterlab` instead.
 
 This script is meant to be executed in a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
 From a classic Windows Command Prompt, you could run `.\.venv\Scripts\Activate.bat` instead.
+
+:::
+
+## Course Materials
+
+Now you've installed Python and Jupyter Lab, you're ready to download and open the course materials.
+
+# Step 1: Obtain course materials
+
+1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/raw/main/course_materials.zip)
+2. Unzip the zip file in this your `pmi` directory.
+
+In your `pmi` directory, you will now see a folder called `images` and several `.ipynb` files. The directory structure should now look like:
+
+```
+pmi/
+├── .venv/
+│   ├── Scripts/
+│   └── ...
+├── images/
+│   ├── ct_jaw/
+│   ├── ct_jaw.nii.gz
+│   └── ...
+├── scripting.ipynb
+├── functions.ipynb
+└── ...
+```
+
+## Step 2: Open the assignments
+
+Follow these steps to start JupyterLab and open the assignments for the relevant week:
+
+::: {.panel-tabset}
+## Windows
+1. Open a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal and change to your `pmi` directory.
+
+2. Activate the virtual environment:
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
+
+3. Start Jupyter Lab:
+   ```powershell
+   jupyter-lab
+   ```
+   
+4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
+
+When you need to start Jupyter Lab again, just repeat steps 4 and 6.
+
+## MacOS 
+1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app and change to your `pmi` directory.
+
+2. Activate the virtual environment:
+   ```zsh
+   source .venv/bin/activate
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
+
+3. Start Jupyter Lab:
+   ```zsh
+   jupyter-lab
+   ```
+   
+4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
 
 :::

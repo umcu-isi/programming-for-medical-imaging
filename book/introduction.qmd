@@ -1,11 +1,12 @@
 # Introduction 
+The purpose of this course is to develop knowledge and practical skills for working with large image datasets. The course will use Python, although the concepts and techniques covered are applicable to other programming languages, including MATLAB, C++, and R.
 
 ## What is Python? 
-Python is a general-purpose programming language that is very popular in the scientific community. At Utrecht University it is the most popular programming language for open source research projects (see [SWORDS-UU](https://github.com/UtrechtUniversity/SWORDS-UU/blob/main/collect_variables/analyze_metrics.ipynb)).
+Python is a general-purpose programming language that is very popular in the scientific community. It was created in the early 90's at the CWI, by [Guido van Rossum](https://gvanrossum.github.io/). At Utrecht University it is the most popular programming language for open source research projects (see [SWORDS-UU](https://github.com/UtrechtUniversity/SWORDS-UU/blob/main/collect_variables/analyze_metrics.ipynb)).
 
 ![Programming languages by user](images/programming_languages.png){width=400}
 
-Python is popular due to its readability, ease of use, its large community, and its large ecosystem of packages that can be used for a large variety of tasks, ranging from data analysis, modelling, simulation, machine learning to web development.
+Python is popular due to its *natural readability*, *ease of use*, its *large community*, and its *large ecosystem of packages* that can be used for a large variety of tasks, ranging from data analysis, modeling, simulation, and machine learning to web development.
 
 Python is open source, which means that it is free to use and that the source code is available for anyone to inspect and modify. This makes it easy to install Python on any computer, and e.g. share code with others or scale up your computations to a high performance computing system.
 
@@ -19,3 +20,5 @@ See below how a Jupyter Notebook looks like. The notebook is divided in text cel
 
 ## Course setup
 This course follows the flipped classroom principle: courses are a combination of online material and exercises, with practical sessions under supervision at the UMC Utrecht.
+
+The first week focuses on understanding the fundamentals and practical aspects of medical image formats. In the following weeks, you will progressively learn how to develop your own scripts, functions, libraries, and classes for medical image analysis.
