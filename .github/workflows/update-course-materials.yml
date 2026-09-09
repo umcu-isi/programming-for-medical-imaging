@@ -1,3 +1,5 @@
+name: Release course materials
+
 on:
   push:
     branches:
@@ -5,34 +7,38 @@ on:
     paths:
       - 'course_materials/**'
   workflow_dispatch:
-    
+
+permissions:
+  contents: write
+
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
-      with:
-        ref: ${{ github.head_ref }}
-        fetch-depth: 0
-    - name: Zip Course materials 
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Zip Course materials
       run: |
-        rm course_materials.zip
+        rm -f course_materials.zip
         cd course_materials
         zip -r ../course_materials.zip .
-    - uses: actions/upload-artifact@v4
-      with:
-        name: course_materials
-        path: course_materials.zip
-    - name: Commit files
+
+    - name: Delete previous release
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
-        git config --local user.email "H.E.Bennink@umcutrecht.nl"
-        git config --local user.name "Edwin Bennink"
-        git add .
-        git commit -a -m "Update course materials"
-      continue-on-error: true
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        branch: ${{ github.head_ref }} 
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-      continue-on-error: true
+        if gh release view course-materials >/dev/null 2>&1; then
+          gh release delete course-materials --yes --cleanup-tag
+        fi
+
+    - name: Create new release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release create course-materials \
+          course_materials.zip \
+          --title "Latest course materials" \
+          --notes "Automatically generated from the latest version of course_materials/ on main." \
+          --target main
