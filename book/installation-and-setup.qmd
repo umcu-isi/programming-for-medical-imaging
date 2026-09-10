@@ -112,7 +112,7 @@ From a classic Windows Command Prompt, you could run `.\.venv\Scripts\Activate.b
 
 :::
 
-## Course Materials
+## Course Materials {#course-materials}
 
 Now you've installed Python and Jupyter Lab, you're ready to download and open the course materials.
 
@@ -126,7 +126,6 @@ In your `pmi` directory, you will now see a folder called `images` and several `
 ```
 pmi/
 ├── .venv/
-│   ├── Scripts/
 │   └── ...
 ├── images/
 │   ├── ct_jaw/
