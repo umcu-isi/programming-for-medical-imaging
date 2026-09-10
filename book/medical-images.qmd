@@ -6,21 +6,22 @@ Study the following sources at home to be prepared for the practicum on Friday. 
 
 1. General info on 2D image formats (14 min)\
    <https://www.youtube.com/watch?v=WblPwVq9KnU>
-2. Article on medical image formats (7 pgs)\
+1. Article on medical image formats (7 pgs)\
    <https://pmc.ncbi.nlm.nih.gov/articles/PMC3948928/>
-3. Visualisation of DICOM, focus on nifti (1 web page)\
+1. Visualisation of DICOM, focus on nifti (1 web page)\
    <https://medium.com/@hannah.hj.do/medical-image-and-visualization-b204e6a1b1d1>
-4. Nice intro into DICOM (8 min)\
+1. Nice intro into DICOM (8 min)\
    <https://www.youtube.com/watch?v=B5F0zTbN_fk>
-5. Advanced explanation of DICOM (21 min)\
+1. Advanced explanation of DICOM (21 min)\
    <https://www.youtube.com/watch?v=eLS9nDVJx5Y>
 
-Install the following tools on your laptop.
+Install the following tools on your laptop:
 
 ::: {.panel-tabset}
 ## Windows
 6. MicroDicom (Windows only)\
    <https://www.microdicom.com>
+
 ## macOS
 6. Osirix Lite (macOS only)\
    <https://www.osirix-viewer.com/osirix/osirix-md/download-osirix-lite/>
