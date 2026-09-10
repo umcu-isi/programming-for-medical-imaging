@@ -118,8 +118,8 @@ Now you've installed Python and Jupyter Lab, you're ready to download and open t
 
 ### Step 1: Obtain course materials
 
-1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/releases/download/course-materials/course_materials.zip)
-2. Unzip the zip file in this your `pmi` directory.
+1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/releases/download/course-materials/course_materials.zip).
+2. Unzip the zip file in your `pmi` directory.
 
 In your `pmi` directory, you will now see a folder called `images` and several `.ipynb` files. The directory structure should now look like:
 

@@ -4,4 +4,4 @@
 
 This repository contains course material for the course [Programming for Medical Imaging](https://mix.isi.uu.nl/courses/programming/), organized by the [Image Sciences Institute](https://www.isi.uu.nl/).
 
-**[Click here to go to the course material](https://umcu-isi.github.io/programming-for-medical-imaging/)**
+**[Click here to go to the course book](https://umcu-isi.github.io/programming-for-medical-imaging/)**
