@@ -15,7 +15,7 @@ book:
     - part: "Week 1: Images"
       chapters:
         - introduction.qmd
-        - medical-images.ipynb
+        - medical-images.qmd
         - installation-and-setup.qmd
     - part: "Week 2: Scripting"
       chapters:

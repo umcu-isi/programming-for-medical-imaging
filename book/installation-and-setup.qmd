@@ -131,8 +131,8 @@ pmi/
 │   ├── ct_jaw/
 │   ├── ct_jaw.nii.gz
 │   └── ...
-├── scripting.ipynb
-├── functions.ipynb
+├── 1-medical-images.pdf
+├── 2-scripting.ipynb
 └── ...
 ```
 
