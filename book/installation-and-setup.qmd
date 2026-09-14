@@ -32,10 +32,11 @@ Follow these steps to install Jupyter Lab:
    cd pmi     # Changes directory into 'pmi'. 
    ```
 
-3. Inside the `pmi` directory, run this command to create a so-called *virtual environment* (venv):
+3. Inside the `pmi` directory, run this command to create a so-called [*virtual environment* (venv)](https://www.w3schools.com/Python/python_virtualenv.asp):
    ```powershell
    py -V:3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
    ```
+   *(In week 4, we will discuss the benefits of these virtual environments)* 
 
 4. Activate the virtual environment:
    ```powershell
@@ -69,10 +70,11 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
    cd pmi     # Changes directory into 'pmi'. 
    ```
 
-3. Inside the `pmi` directory, run this command to create a so-called *virtual environment*:
+3. Inside the `pmi` directory, run this command to create a so-called [*virtual environment* (venv)](https://www.w3schools.com/Python/python_virtualenv.asp):
    ```zsh
    python3.14 -m venv .venv  # Creates a Python 3.14 virtual environment in '.venv'
    ```
+   *(In week 4, we will discuss the benefits of these virtual environments)* 
 
 4. Activate the virtual environment:
    ```zsh
@@ -156,8 +158,6 @@ Follow these steps to start JupyterLab and open the assignments for the relevant
    ```
    
 4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
-
-When you need to start Jupyter Lab again, just repeat steps 4 and 6.
 
 ## MacOS 
 1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app and change to your `pmi` directory.
