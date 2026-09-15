@@ -1,0 +1,67 @@
+# Course Materials {#course-materials}
+
+## Overview
+
+The course materials are designed to be run on a personal computer.
+All software and data used are freely available online, and instructions on how to obtain them are provided below.
+
+Once you've installed Python and JupyterLab, you're ready to download and open the course materials.
+
+## Obtaining the course materials
+
+1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/releases/download/course-materials/course_materials.zip).
+2. Unzip the zip file in your `pmi` directory.
+
+In your `pmi` directory, you will now see a folder called `images` and several `.ipynb` files. The directory structure should now look like:
+
+```
+pmi/
+├── .venv/
+│   └── ...
+├── images/
+│   ├── ct_jaw/
+│   ├── ct_jaw.nii.gz
+│   └── ...
+├── 1-medical-images.pdf
+├── 2-scripting.ipynb
+└── ...
+```
+
+## Loading the assignments
+
+Follow these steps to start JupyterLab and open the assignments for the relevant week:
+
+::: {.panel-tabset}
+## Windows
+1. Open a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal and change to your `pmi` directory.
+
+2. Activate the virtual environment:
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
+
+3. Start JupyterLab:
+   ```powershell
+   jupyter-lab
+   ```
+   
+4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
+
+## MacOS 
+1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app and change to your `pmi` directory.
+
+2. Activate the virtual environment:
+   ```zsh
+   source .venv/bin/activate
+   ```
+   The terminal should now show the name of the virtual environment in front of the prompt.
+
+3. Start JupyterLab:
+   ```zsh
+   jupyter-lab
+   ```
+   
+4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
+
+:::

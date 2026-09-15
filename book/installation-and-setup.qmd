@@ -3,7 +3,7 @@
 ## Overview
 
 The course materials are designed to be run on a personal computer.
-All of the software and data used are freely available online, and instructions on how to obtain them are provided below.
+The required software is freely available online, with installation instructions provided below.
 
 
 ## Step 1: Install Python
@@ -14,12 +14,12 @@ Python 3 itself can be downloaded and installed from <https://www.python.org/dow
 Follow the steps on this website to download and install *Python 3.14.x* for Windows or MacOS. Just ask for help during the practical sessions or on Teams when something isn't clear. 
 
 
-## Step 2: Install Jupyter Lab
+## Step 2: Install JupyterLab
 
-We will teach the basics of Python programming using the [Jupyter Lab](https://jupyter.org/), a scripting environment that runs 
+We will teach the basics of Python programming using [JupyterLab](https://jupyter.org/), a scripting environment that runs 
 in a web browser.
 
-Follow these steps to install Jupyter Lab:
+Follow these steps to install JupyterLab:
 
 ::: {.panel-tabset}
 ## Windows
@@ -51,14 +51,14 @@ Follow these steps to install Jupyter Lab:
    ```
    *(Note: this may take a few minutes.)*
 
-6. Start Jupyter Lab:
+6. Start JupyterLab:
    ```powershell
-   jupyter-lab  # Starts Jupyter Lab.
+   jupyter-lab  # Starts JupyterLab.
    ```
 
-7. When you're finished with Jupyter Lab, just close the Windows terminal and browser tab.
+7. When you're finished with JupyterLab, just close the Windows terminal and browser tab.
 
-When you need to start Jupyter Lab again, just repeat steps 4 and 6.
+When you need to start JupyterLab again, just repeat steps 4 and 6.
 
 ## MacOS 
 1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app.
@@ -89,14 +89,14 @@ When you need to start Jupyter Lab again, just repeat steps 4 and 6.
    ```
    *(Note: this may take a few minutes.)*
 
-6. Start Jupyter Lab:
+6. Start JupyterLab:
    ```zsh
-   jupyter-lab  # Starts Jupyter Lab.
+   jupyter-lab  # Starts JupyterLab.
    ```
 
-7. When you're finished with Jupyter Lab, just close the terminal app and browser tab.
+7. When you're finished with JupyterLab, just close the terminal app and browser tab.
 
-When you need to start Jupyter Lab again, just repeat steps 4 and 6.
+When you need to start JupyterLab again, just repeat steps 4 and 6.
 
 ## FAQ
 > *I'm getting the error `Program 'pip.exe' failed to run: This program is blocked by group policy.`*
@@ -111,68 +111,5 @@ Try running `python -m jupyterlab` instead.
 
 This script is meant to be executed in a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
 From a classic Windows Command Prompt, you could run `.\.venv\Scripts\Activate.bat` instead.
-
-:::
-
-## Course Materials {#course-materials}
-
-Now you've installed Python and Jupyter Lab, you're ready to download and open the course materials.
-
-### Step 1: Obtain course materials
-
-1. Download the zip file with all [course materials](https://github.com/umcu-isi/programming-for-medical-imaging/releases/download/course-materials/course_materials.zip).
-2. Unzip the zip file in your `pmi` directory.
-
-In your `pmi` directory, you will now see a folder called `images` and several `.ipynb` files. The directory structure should now look like:
-
-```
-pmi/
-├── .venv/
-│   └── ...
-├── images/
-│   ├── ct_jaw/
-│   ├── ct_jaw.nii.gz
-│   └── ...
-├── 1-medical-images.pdf
-├── 2-scripting.ipynb
-└── ...
-```
-
-### Step 2: Open the assignments
-
-Follow these steps to start JupyterLab and open the assignments for the relevant week:
-
-::: {.panel-tabset}
-## Windows
-1. Open a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal and change to your `pmi` directory.
-
-2. Activate the virtual environment:
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
-   ```
-   The terminal should now show the name of the virtual environment in front of the prompt.
-
-3. Start Jupyter Lab:
-   ```powershell
-   jupyter-lab
-   ```
-   
-4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
-
-## MacOS 
-1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app and change to your `pmi` directory.
-
-2. Activate the virtual environment:
-   ```zsh
-   source .venv/bin/activate
-   ```
-   The terminal should now show the name of the virtual environment in front of the prompt.
-
-3. Start Jupyter Lab:
-   ```zsh
-   jupyter-lab
-   ```
-   
-4. Once the browser window opens, double-click the `.ipynb` notebook file for the relevant week in the file browser on the left.
 
 :::

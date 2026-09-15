@@ -17,6 +17,7 @@ book:
         - introduction.qmd
         - medical-images.qmd
         - installation-and-setup.qmd
+        - course-materials.qmd
     - part: "Week 2: Scripting"
       chapters:
         - scripting-variables-types.ipynb
