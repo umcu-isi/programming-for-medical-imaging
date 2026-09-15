@@ -11,7 +11,7 @@ The required software is freely available online, with installation instructions
 In this course, we will be using Python 3 with some of its most popular scientific libraries.
 
 Python 3 itself can be downloaded and installed from <https://www.python.org/downloads/>.
-Follow the steps on this website to download and install *Python 3.14.x* for Windows or MacOS. Just ask for help during the practical sessions or on Teams when something isn't clear. 
+Follow the steps on this website to download and install *Python 3.14.x* for Windows or macOS. Just ask for help during the practical sessions or on Teams when something isn't clear. 
 
 
 ## Step 2: Install JupyterLab
@@ -47,7 +47,7 @@ Follow these steps to install JupyterLab:
 5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
    These are packages that we will use throughout the course. 
    ```powershell
-   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pyside6  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pmi-viewer  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
@@ -60,7 +60,7 @@ Follow these steps to install JupyterLab:
 
 When you need to start JupyterLab again, just repeat steps 4 and 6.
 
-## MacOS 
+## macOS 
 1. Open the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) app.
 
 2. Create a directory for the course, for example `pmi`, and enter it:
@@ -85,7 +85,7 @@ When you need to start JupyterLab again, just repeat steps 4 and 6.
 5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
    These are packages that we will use throughout the course.
    ```zsh
-   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pyside6  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pmi-viewer  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
