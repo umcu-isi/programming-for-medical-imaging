@@ -99,6 +99,11 @@ When you need to start JupyterLab again, just repeat steps 4 and 6.
 When you need to start JupyterLab again, just repeat steps 4 and 6.
 
 ## FAQ
+
+> Executing `.\.venv\Scripts\Activate.ps1` fails because it is not allowed to execute scripts.
+
+Run `$env:Path = "$PWD\.venv\Scripts;$env:Path"` instead. The terminal will not show the environment's name, but it should work nonetheless.
+
 > *I'm getting the error `Program 'pip.exe' failed to run: This program is blocked by group policy.`*
 
 Try running `python -m pip` instead.
