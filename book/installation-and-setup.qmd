@@ -139,4 +139,5 @@ From a classic Windows Command Prompt, you could run the `.bat` script instead:
 ```
 :::
 
-::: <!-- Closes .panel-tabset -->
+<!--- Closes .panel-tabset --->
+:::
