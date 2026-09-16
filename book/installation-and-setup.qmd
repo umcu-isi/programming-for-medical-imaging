@@ -102,7 +102,7 @@ When you need to start JupyterLab again, just repeat steps 4 and 6.
 ## FAQ
 
 ::: {.callout-note collapse="true"}
-Executing `.\.venv\Scripts\Activate.ps1` fails because it is not allowed to execute scripts.
+## Executing `.\.venv\Scripts\Activate.ps1` fails because it is not allowed to execute scripts.
 
 Before executing `Activate.ps1`, run this to allow the execution of scripts:
 ```powershell
@@ -117,19 +117,19 @@ instead of `.\.venv\Scripts\Activate.ps1`. Note that the terminal will **not** s
 :::
 
 ::: {.callout-note collapse="true"}
-I'm getting the error `Program 'pip.exe' failed to run: This program is blocked by group policy.`
+## I'm getting the error `Program 'pip.exe' failed to run: This program is blocked by group policy.`
 
 Try running `python -m pip` instead.
 :::
 
 ::: {.callout-note collapse="true"}
-I'm getting the error `Program 'jupyter-lab.exe' failed to run: This program is blocked by group policy.`
+## I'm getting the error `Program 'jupyter-lab.exe' failed to run: This program is blocked by group policy.`
 
 Try running `python -m jupyterlab` instead.
 :::
 
 ::: {.callout-note collapse="true"}
-Executing `.\.venv\Scripts\Activate.ps1` just opens the file in Notepad.
+## Executing `.\.venv\Scripts\Activate.ps1` just opens the file in Notepad.
 
 This script is meant to be executed in a Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell) terminal.
 From a classic Windows Command Prompt, you could run the `.bat` script instead:
