@@ -7,8 +7,10 @@ These course materials are derived from work that is Copyright © Utrecht Univer
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/index.html) developed by [The Carpentries](https://carpentries.org/)  
 
 - [Introduction to R & Data](https://utrechtuniversity.github.io/workshop-introduction-to-R-and-data/) developed by [Research Data Management Support](https://www.uu.nl/en/research/research-data-management) at Utrecht University. 
-    
-The aforementioned source materials are reused under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+- [Chest CT: LIDC-IDRI Lung Nodule Study](https://www.cancerimagingarchive.net/collection/lidc-idri/) obtained via [SAGA-IT](https://saga-it.com/)
+
+The aforementioned source materials are reused under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. The Chest CT data is reused under a [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en/) license.
 
 ## Contributors
 
