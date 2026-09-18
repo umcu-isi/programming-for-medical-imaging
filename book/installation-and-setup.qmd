@@ -45,10 +45,9 @@ Follow these steps to install JupyterLab:
    ```
    The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
-   These are packages that we will use throughout the course. 
+5. Install a few Python *packages* that we will use throughout the course: 
    ```powershell
-   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pmi-viewer  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg nibabel pmi-viewer  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
@@ -57,7 +56,7 @@ Follow these steps to install JupyterLab:
    jupyter-lab  # Starts JupyterLab.
    ```
 
-7. When you're finished with JupyterLab, just close the Windows terminal and browser tab.
+7. *Keep the terminal open while you're working with JupyterLab!* When you're finished, just close the terminal app and browser tab.
 
 When you need to start JupyterLab again, just repeat steps 4 and 6.
 
@@ -83,10 +82,9 @@ When you need to start JupyterLab again, just repeat steps 4 and 6.
    ```
    The terminal should now show the name of the virtual environment in front of the prompt.
 
-5. Install the *packages* `jupyterlab`, `numpy`, `matplotlib`, `pandas`, `pillow` and `pydicom` in the virtual environment.
-   These are packages that we will use throughout the course.
+5. Install a few Python *packages* that we will use throughout the course:
    ```zsh
-   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg pmi-viewer  # Installs several packages.
+   pip install jupyterlab numpy matplotlib ipympl pandas pillow pydicom pylibjpeg pylibjpeg-libjpeg nibabel pmi-viewer  # Installs several packages.
    ```
    *(Note: this may take a few minutes.)*
 
@@ -95,7 +93,7 @@ When you need to start JupyterLab again, just repeat steps 4 and 6.
    jupyter-lab  # Starts JupyterLab.
    ```
 
-7. When you're finished with JupyterLab, just close the terminal app and browser tab.
+7. *Keep the terminal open while you're working with JupyterLab!* When you're finished, just close the terminal app and browser tab.
 
 When you need to start JupyterLab again, just repeat steps 4 and 6.
 
@@ -137,6 +135,14 @@ From a classic Windows Command Prompt, you could run the `.bat` script instead:
 ```shell
 .\.venv\Scripts\Activate.bat
 ```
+:::
+
+::: {.callout-note collapse="true"}
+## The browser shows a `Server Connection Error`
+
+This happens when `jupyter-lab` is stopped, or when the terminal is closed.
+Open a new terminal (if necessary), change to your `pmi` directory, and repeat steps 4 and 6.
+
 :::
 
 <!--- Closes .panel-tabset --->
