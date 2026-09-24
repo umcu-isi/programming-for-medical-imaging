@@ -1,9 +1,6 @@
 project:
   type: book
   output-dir: ./_site
-  render:
-    - "*.qmd"
-    - "*.ipynb"
 
 book:
   title: "Programming for Medical Imaging"
