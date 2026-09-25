@@ -21,12 +21,13 @@ book:
       chapters:
         - scripting-variables-types.ipynb
         - scripting-data.ipynb
-#    - part: "Week 3: Functions"
-#      chapters:
-#        - functions-comparisons.ipynb
-#        - functions-iteration.ipynb
-#        - functions-functions.ipynb
-#        - functions-value-reference.ipynb
+    - part: "Week 3: Functions"
+      chapters:
+        - functions-comparisons.ipynb
+        - functions-iteration.ipynb
+        - functions-functions.ipynb
+        - functions-value-reference.ipynb
+        - functions-numerical-datatypes.ipynb
 #    - part: "Week 4: Libraries"
 #      chapters:
 #        - programs-libraries.ipynb
