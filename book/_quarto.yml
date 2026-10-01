@@ -28,9 +28,12 @@ book:
         - functions-functions.ipynb
         - functions-value-reference.ipynb
         - functions-numerical-datatypes.ipynb
-#    - part: "Week 4: Libraries"
-#      chapters:
-#        - programs-libraries.ipynb
+    - part: "Week 4: Libraries"
+      chapters:
+        - libraries-libraries.ipynb
+        - libraries-structure.ipynb
+        - libraries-applications.ipynb
+#        - libraries-ide.ipynb
 #    - part: "Week 5: Classes"
 #      chapters:
 #        - classes-objects.ipynb
