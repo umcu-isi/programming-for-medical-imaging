@@ -33,7 +33,8 @@ book:
         - libraries-libraries.ipynb
         - libraries-structure.ipynb
         - libraries-applications.ipynb
-#        - libraries-ide.ipynb
+        - libraries-errors.ipynb
+        - libraries-ide.ipynb
 #    - part: "Week 5: Classes"
 #      chapters:
 #        - classes-objects.ipynb
