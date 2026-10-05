@@ -1,0 +1,44 @@
+name: Release library template
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'library_template/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Zip Library template
+      run: |
+        rm -f library_template.zip
+        cd library_template
+        zip -r ../library_template.zip .
+
+    - name: Delete previous release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        if gh release view library-template >/dev/null 2>&1; then
+          gh release delete library-template --yes --cleanup-tag
+        fi
+
+    - name: Create new release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release create library-template \
+          library_template.zip \
+          --title "Latest library template" \
+          --notes "Automatically generated from the latest version of library_template/ on main." \
+          --target main
