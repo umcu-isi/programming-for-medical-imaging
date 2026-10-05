@@ -9,7 +9,7 @@ description = 'PMI library - Group <group number>'
 readme = 'README.md'
 requires-python = '>=3.14'
 license = 'MIT'
-license-files = ['LICENSE.txt']
+license-files = ['LICENSE.md']
 authors = [
   {name = 'Group member 1', email = 'member1@students.uu.nl'},
   {name = 'Group member 2', email = 'member2@students.uu.nl'},
