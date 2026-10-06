@@ -35,6 +35,12 @@ HELP_UNIX = f"""
     * Try building again
 """
 
+_package_root = Path(__file__).parent / "src" / "pmi_lib"
+
+
+def _get_input_files():
+    return [str(file) for file in _package_root.rglob("*.c")]
+
 
 # BuildNative.run() is executed when
 class BuildNative(Command):
@@ -48,8 +54,7 @@ class BuildNative(Command):
         pass
 
     def run(self):
-        package_root = Path(__file__).parent / "src" / "pmi_lib"
-        input_files = [str(file) for file in package_root.rglob("*.c")]
+        input_files = _get_input_files()
 
         # We don't need to build anything if filters.c is not present.
         if not input_files:
@@ -71,13 +76,13 @@ class BuildNative(Command):
 
         # Set platform specific build arguments.
         if platform.system() == "Windows":
-            output_file = package_root / "pmi.dll"
+            output_file = _package_root / "pmi.dll"
             cmd = ["gcc", *build_args, "-o", str(output_file), *input_files]
         elif platform.system() == "Darwin":  # macOS
-            output_file = package_root / "libpmi.dylib"
+            output_file = _package_root / "libpmi.dylib"
             cmd = ["gcc", *build_args, "-fPIC", "-o", str(output_file), *input_files]
         else:  # Linux / Unix
-            output_file = package_root / "libpmi.so"
+            output_file = _package_root / "libpmi.so"
             cmd = ["gcc", *build_args, "-fPIC", "-o", str(output_file), *input_files]
 
         # Run the build command. Raise an error when it fails.
@@ -93,7 +98,7 @@ class BuildPy(build_py):
         super().run()  # Then build everything else.
 
 
-# BdistWheel is used for wheel builds (python -m build wheel).
+# BdistWheel.get_tag is called when has_ext_modules returns True. This tag is used for naming .whl archives.
 class BdistWheel(bdist_wheel):
     def get_tag(self):
         _, _, platform = super().get_tag()
@@ -116,7 +121,7 @@ setup(
             "*.dylib",
         ],
     },
-    has_ext_modules=lambda: True,
+    has_ext_modules=lambda: any(_get_input_files()),
     cmdclass={
         "build_native": BuildNative,
         "build_py": BuildPy,
