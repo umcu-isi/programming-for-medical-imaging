@@ -29,6 +29,26 @@ project/
 ```
 
 
+## Building
+
+The project can be build and installed in *editable* mode using the following terminal command:
+
+```console
+python -m pip install -e .
+```
+
+This will automatically install the package dependencies defined in `pyproject.toml`.
+
+
+## Usage
+
+Once the package is built and installed, the package can be imported in Python:
+
+```python
+import pmi_lib
+```
+
+
 ## License
 
 `pmi-lib` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
