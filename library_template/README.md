@@ -32,19 +32,18 @@ project/
 
 ## Building
 
-When developing the library, install it in *editable mode* in your venv by running the following command from this directory:
+The project can be build and installed in *editable* mode using the following terminal command:
 
-```shell
+```console
 python -m pip install -e .
 ```
 
-To build packages for distribution, run:
+This will automatically install the package dependencies defined in `pyproject.toml`.
 
-```shell
-python -m build
-```
 
 ## Usage
+
+Once the package is built and installed, the package can be imported in Python:
 
 ```python
 import pmi_lib
