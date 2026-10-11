@@ -35,9 +35,12 @@ book:
         - libraries-applications.ipynb
         - libraries-errors.ipynb
         - libraries-ide.ipynb
-#    - part: "Week 5: Classes"
-#      chapters:
-#        - classes-objects.ipynb
+    - part: "Week 5: Classes"
+      chapters:
+        - classes-objects.ipynb
+        - classes-example.ipynb
+        - classes-inheritance.ipynb
+        - classes-typing.ipynb
 #    - part: "Week 6: Languages"
 #      chapters:
 #        - programming-languages.ipynb
