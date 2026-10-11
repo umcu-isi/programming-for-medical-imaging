@@ -10,4 +10,5 @@ dependencies = [
     "matplotlib>=3.10.9",
     "pandas>=3.0.3",
     "pydicom>=3.0.2",
+    "nibabel>=5.4.2",
 ]

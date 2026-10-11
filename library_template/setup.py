@@ -56,7 +56,7 @@ class BuildNative(Command):
     def run(self):
         input_files = _get_input_files()
 
-        # We don't need to build anything if filters.c is not present.
+        # We don't need to build anything if there are no input files.
         if not input_files:
             return
 
