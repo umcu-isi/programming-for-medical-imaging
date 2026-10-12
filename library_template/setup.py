@@ -113,9 +113,10 @@ class EditableWheel(editable_wheel):
 
 
 setup(
-    packages=["src/pmi_lib"],
+    package_dir={"": "src"},
+    packages=["pmi_lib"],
     package_data={
-        "src/pmi_lib": [
+        "pmi_lib": [
             "*.dll",
             "*.so",
             "*.dylib",
