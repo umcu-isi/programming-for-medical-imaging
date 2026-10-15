@@ -41,12 +41,12 @@ book:
         - classes-example.ipynb
         - classes-inheritance.ipynb
         - classes-typing.ipynb
-#    - part: "Week 6: Languages"
+#    - part: "Week 6: Computing"
 #      chapters:
-#        - programming-languages.ipynb
-#    - part: "Week 7: Computation"
+#        - computing-languages.ipynb
+#    - part: "Week 7: Version Control"
+#        - vcs-sharing.ipynb
 #      chapters:
-#        - computation.ipynb
 #    - part: "Week 8: Q&A"
 #      chapters:
 #        - qa.ipynb
