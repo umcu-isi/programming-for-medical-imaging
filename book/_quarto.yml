@@ -43,7 +43,9 @@ book:
         - classes-typing.ipynb
 #    - part: "Week 6: Computing"
 #      chapters:
-#        - computing-languages.ipynb
+#        - languages-languages.ipynb
+#        - languages-mixing.ipynb
+#        - compiling-c.ipynb
 #    - part: "Week 7: Version Control"
 #        - vcs-sharing.ipynb
 #      chapters:
