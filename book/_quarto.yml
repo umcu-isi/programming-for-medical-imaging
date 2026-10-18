@@ -41,11 +41,11 @@ book:
         - classes-example.ipynb
         - classes-inheritance.ipynb
         - classes-typing.ipynb
-#    - part: "Week 6: Computing"
-#      chapters:
-#        - languages-languages.ipynb
-#        - languages-mixing.ipynb
-#        - compiling-c.ipynb
+    - part: "Week 6: Computing"
+      chapters:
+        - languages-languages.ipynb
+        - languages-mixing.ipynb
+        - languages-writing-c.ipynb
 #    - part: "Week 7: Version Control"
 #        - vcs-sharing.ipynb
 #      chapters:
