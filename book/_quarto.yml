@@ -46,12 +46,12 @@ book:
         - languages-languages.ipynb
         - languages-mixing.ipynb
         - languages-writing-c.ipynb
-#    - part: "Week 7: Version Control"
+#    - part: "Week 7: Computing"
+#        - computation-bottlenecks.ipynb
+#      chapters:
+#    - part: "Week 8: Version Control"
+#      chapters:
 #        - vcs-sharing.ipynb
-#      chapters:
-#    - part: "Week 8: Q&A"
-#      chapters:
-#        - qa.ipynb
 #    - references.qmd
   repo-url: https://github.com/umcu-isi/programming-for-medical-imaging/
   repo-subdir: book
