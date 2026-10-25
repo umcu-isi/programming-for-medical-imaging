@@ -46,8 +46,11 @@ book:
         - languages-languages.ipynb
         - languages-mixing.ipynb
         - languages-writing-c.ipynb
-#    - part: "Week 7: Computing"
-#        - computation-bottlenecks.ipynb
+    - part: "Week 7: Computing"
+      chapters:
+       - computation-bottlenecks.ipynb
+       - computation-calculations.ipynb
+       - computation-parallelism.ipynb
 #      chapters:
 #    - part: "Week 8: Version Control"
 #      chapters:

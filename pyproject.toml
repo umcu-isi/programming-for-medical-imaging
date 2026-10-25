@@ -11,4 +11,5 @@ dependencies = [
     "pandas>=3.0.3",
     "pydicom>=3.0.2",
     "nibabel>=5.4.2",
+    "joblib>=1.6.0",
 ]
