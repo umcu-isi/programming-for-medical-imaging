@@ -51,10 +51,10 @@ book:
        - computation-bottlenecks.ipynb
        - computation-calculations.ipynb
        - computation-parallelism.ipynb
-#      chapters:
-#    - part: "Week 8: Version Control"
-#      chapters:
-#        - vcs-sharing.ipynb
+    - part: "Extra: Version Control and Sharing"
+      chapters:
+        - sharing-version-control.ipynb
+        - sharing-fair.ipynb
 #    - references.qmd
   repo-url: https://github.com/umcu-isi/programming-for-medical-imaging/
   repo-subdir: book
